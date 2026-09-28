@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fixtree",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fix validation gates for tree inputs before they hit prod.",
+  "bin": {
+    "fixtree": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fixtree.git"
+  },
+  "homepage": "https://theworker02.github.io/fixtree/",
+  "keywords": [
+    "fix",
+    "tree",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
